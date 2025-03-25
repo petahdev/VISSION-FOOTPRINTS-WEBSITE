@@ -237,7 +237,7 @@ li,
   --tp-grey-8: #5e5a59;
   --tp-grey-9: #837b79;
   --tp-red-1: #AF0E2E;
-  --tp-red-2: #C41230;
+  --tp-red-2: #eb5d2f;
   --tp-red-3: #B70A14;
   --tp-red-4: #933115;
   --tp-red-5: #cf6e52;
@@ -247,20 +247,20 @@ li,
   --tp-heading-3: #0A1D3A;
   --tp-heading-4: #00477b;
   --tp-heading-5: #2d2a29;
-  --tp-text-body: #57595F;
-  --tp-theme-primary: #AB0C2F;
-  --tp-theme-secondary: #1A73E8;
+  --tp-text-body: #eb5d2f;
+  --tp-theme-primary: #eb5d2f;
+  --tp-theme-secondary: #00477b;
   --tp-theme-3: #FF7162;
-  --tp-theme-4: #B1040E;
+  --tp-theme-4: #eb5d2f;
   --tp-theme-5: #eb5d2f;
   --tp-theme-6: #1E1E2F;
   --tp-theme-7: #4661FD;
   --tp-theme-8: #006B61;
-  --tp-theme-9: #5956E9;
+  --tp-theme-9: #eb5d2f;
   --tp-theme-10: #ff5224;
-  --tp-theme-11: #1d9267;
+  --tp-theme-11: #00477b;
   --tp-dashboard-primary: #556DF5;
-  --tp-dashboard-secondary: #5169F1;
+  --tp-dashboard-secondary: #00477b;
   --tp-dashboard-3: #5B7D55;
   --tp-dashboard-danger: #FF4D4F;
   --tp-dashboard-sucess: #0F9F55;
@@ -1106,12 +1106,12 @@ div.demo img {
   padding: 9px 32px;
   border-radius: 6px;
   color: var(--tp-common-white);
-  background-color: var(--tp-theme-primary);
+  background-color: #00477b;
   transition: all 0.25s ease-in-out;
 }
 .tp-btn-3:hover {
   color: var(--tp-common-white);
-  box-shadow: 0 0 0 0.2rem #AB0C2F !important;
+  box-shadow: 0 0 0 0.2rem #eb5d2f !important;
 }
 .tp-btn-4 {
   font-size: 14px;
@@ -1159,7 +1159,7 @@ div.demo img {
   letter-spacing: 0.56px;
   text-transform: uppercase;
   color: var(--tp-common-white);
-  border: 2px solid var(--tp-common-white);
+  border:none;
 }
 .tp-btn-white:hover {
   color: var(--tp-heading-primary);
@@ -1224,7 +1224,7 @@ div.demo img {
   border-radius: 50%;
   padding: 44px 31px;
   display: inline-block;
-  background-color: #B1040E;
+  background-color: #eb5d2f;
   color: var(--tp-common-white);
 }
 .tp-btn-circle span {
@@ -6521,7 +6521,7 @@ body .ui-tooltip {
   transition: 0.3s;
 }
 .flatpickr-calendar.open .flatpickr-months .flatpickr-prev-month svg path {
-  fill: #57595F;
+  fill: #eb5d2f;
 }
 .flatpickr-calendar.open .flatpickr-months .flatpickr-prev-month:hover {
   border-color: rgba(81, 105, 241, 0.06);
@@ -6537,7 +6537,7 @@ body .ui-tooltip {
   transition: 0.3s;
 }
 .flatpickr-calendar.open .flatpickr-months .flatpickr-next-month svg path {
-  fill: #57595F;
+  fill: #eb5d2f;
 }
 .flatpickr-calendar.open .flatpickr-months .flatpickr-next-month:hover {
   border-color: rgba(81, 105, 241, 0.06);
@@ -6573,7 +6573,7 @@ body .ui-tooltip {
   background: transparent;
 }
 .flatpickr-calendar.open .flatpickr-innerContainer .flatpickr-weekdaycontainer span {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 15px;
   font-weight: 400;
 }
@@ -7329,7 +7329,7 @@ body .ui-tooltip {
   color: #161613;
   font-size: 12px;
   font-weight: 500;
-  border: 2px solid #B1040E;
+  border: 2px solid #eb5d2f;
   background-color: var(--tp-common-white);
 }
 .tp-header-2-cart.cart-4 button span {
@@ -7409,10 +7409,10 @@ body .ui-tooltip {
   transition: all 0.3s ease-in-out;
 }
 .tp-header-2 .offcanvas-open-btn:hover {
-  border-color: #0071dc;
+  border-color: #00477b;
 }
 .tp-header-2 .offcanvas-open-btn:hover i {
-  color: #0071DC;
+  color: #00477b;
 }
 .tp-header-2-contact.tp-header-shop .tp-header-2-cart {
   position: relative;
@@ -7539,7 +7539,7 @@ body .ui-tooltip {
 .tp-header-4-main.tp-header-sticky .tp-header-2-cart.cart-4 i {
   border: 2px solid #c7c7c4;
   color: var(--tp-common-white);
-  background-color: #b1040e;
+  background-color: #eb5d2f;
 }
 .tp-header-4-main.tp-header-sticky .tp-header-4-btn a {
   -webkit-transition: all 0.3s 0s ease-out;
@@ -7548,7 +7548,7 @@ body .ui-tooltip {
   -o-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
   color: var(--tp-common-white);
-  background-color: #B1040E;
+  background-color: #eb5d2f;
 }
 .tp-header-4-main.tp-header-sticky .tp-header-4-btn a:hover {
   color: var(--tp-common-white);
@@ -7700,7 +7700,7 @@ body .ui-tooltip {
   list-style: none;
 }
 .header-bottom__lang-2 > ul > li > a {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   font-weight: 300;
   text-align: center;
@@ -7977,7 +7977,7 @@ body .ui-tooltip {
   font-size: 16px;
   border-radius: 12px;
   background-color: var(--tp-theme-9);
-  box-shadow: 0px 1px 2px 0px rgba(20, 56, 181, 0.25), 0px 0px 1px 0px #5956E9;
+  box-shadow: 0px 1px 2px 0px rgba(20, 56, 181, 0.25), 0px 0px 1px 0px #eb5d2f;
 }
 .tp-header-6-btn .tp-btn-inner:hover {
   box-shadow: none;
@@ -8212,7 +8212,7 @@ body .ui-tooltip {
 .tp-header-new-course-right .draft {
   font-weight: 600;
   font-size: 15px;
-  color: #57595f;
+  color: #eb5d2f;
   margin-right: 15px;
 }
 .tp-header-new-course-right .preview {
@@ -8671,8 +8671,8 @@ body .ui-tooltip {
   border: 1px solid #073742;
 }
 .tp-megamenu-small-cta-btn .tp-btn:hover {
-  background-color: #c41230;
-  border: 1px solid #c41230;
+  background-color: #eb5d2f;
+  border: 1px solid #eb5d2f;
 }
 .tp-megamenu-fullwidth {
   top: 100%;
@@ -8721,7 +8721,7 @@ body .ui-tooltip {
   position: relative;
   font-size: 16px;
   font-weight: 400;
-  color: #57595F;
+  color: #eb5d2f;
   display: block;
 }
 .tp-megamenu-fullwidth-list ul li a:hover {
@@ -9168,12 +9168,12 @@ body .ui-tooltip {
   margin-right: 8px;
 }
 .tp-megamenu-academics-btns a.active {
-  background: #5169F1;
+  background: #00477b;
   color: var(--tp-common-white);
   box-shadow: 0px 1px 2px 0px rgba(20, 56, 181, 0.25), 0px 0px 1px 0px #1438B5;
 }
 .tp-megamenu-academics-btns a:hover {
-  background: #5169F1;
+  background: #00477b;
   color: var(--tp-common-white);
   box-shadow: 0px 1px 2px 0px rgba(20, 56, 181, 0.25), 0px 0px 1px 0px #1438B5;
 }
@@ -9226,7 +9226,7 @@ body .ui-tooltip {
   letter-spacing: -0.18px;
 }
 .tp-megamenu-courses-wrap p {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 15px;
   font-weight: 400;
   margin: 0;
@@ -9258,7 +9258,7 @@ body .ui-tooltip {
 .tp-megamenu-courses-list a {
   position: relative;
   display: block;
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   font-weight: 400;
 }
@@ -10972,7 +10972,7 @@ body .ui-tooltip {
   color: var(--tp-common-white);
 }
 .tp-footer-copyright span {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   line-height: 24px;
 }
@@ -11482,7 +11482,7 @@ a.social-yout {
   transition: all 0.3s 0s ease-out;
 }
 .tp-footer-4-social a:hover {
-  background-color: #B1040E;
+  background-color: #eb5d2f;
 }
 .tp-footer-widget-4 ul li:not(:last-child) {
   margin-bottom: 10px;
@@ -12959,7 +12959,7 @@ a.social-yout {
 }
 .tp-about-year-bg {
   margin-top: -80px;
-  background: linear-gradient(#9B030C, #B1040E);
+  background: linear-gradient(#9B030C, #eb5d2f);
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 767px) {
   .tp-about-year-bg {
@@ -13336,7 +13336,7 @@ a.social-yout {
   border: 1px solid rgba(22, 22, 19, 0.1);
 }
 .tp-about-campus-location span svg {
-  color: #B1040E;
+  color: #eb5d2f;
 }
 .tp-about-campus-btn .tp-btn {
   padding: 6px 20px;
@@ -13408,7 +13408,7 @@ a.social-yout {
 }
 .tp-about-4-video a {
   display: inline-block;
-  color: #B1040E;
+  color: #eb5d2f;
   border-radius: 100px;
   background: #E8C4C2;
   height: 50px;
@@ -13426,7 +13426,7 @@ a.social-yout {
   transform: translateX(2px);
 }
 .tp-about-4-video a:hover {
-  background-color: #B1040E;
+  background-color: #eb5d2f;
   color: var(--tp-common-white);
 }
 .tp-about-4-video > span {
@@ -13624,7 +13624,7 @@ a.social-yout {
   background: linear-gradient(180deg, rgba(81, 105, 241, 0.1) 0%, rgba(190, 200, 255, 0.1) 100%);
 }
 .tp-about-tutor-subtitle p {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 20px;
   font-weight: 400;
   margin: 0;
@@ -14233,7 +14233,7 @@ a.social-yout {
   font-weight: 300;
 }
 .tp-live-teacher-title {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 15px;
   font-weight: 500;
 }
@@ -14297,7 +14297,7 @@ a.social-yout {
   line-height: 1;
 }
 .tp-live-rating p span {
-  color: #57595F;
+  color: #eb5d2f;
 }
 .tp-live-rating-star i {
   color: #FFB21D;
@@ -14342,7 +14342,7 @@ a.social-yout {
 }
 .tp-live-total-student span {
   display: block;
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 14px;
   font-weight: 500;
   position: relative;
@@ -14908,7 +14908,7 @@ a.social-yout {
 .tp-contact-input-remeber label {
   font-size: 15px;
   font-weight: 300;
-  color: #57595F;
+  color: #eb5d2f;
   position: relative;
   padding-left: 26px;
   z-index: 1;
@@ -15813,7 +15813,7 @@ a.social-yout {
 }
 .tp-marquee-title {
   text-transform: uppercase;
-  color: #161613;
+  color:  #00477b;
   font-size: 22px;
   font-weight: 500;
   display: inline-block;
@@ -15821,7 +15821,7 @@ a.social-yout {
 }
 .tp-marquee-title span {
   position: relative;
-  color: #FF2051;
+  color:   #fff;
 }
 .tp-marquee-title span svg {
   position: absolute;
@@ -15963,7 +15963,7 @@ a.social-yout {
   content: "";
   width: 0;
   height: 1px;
-  background: #ab0c2f;
+  background: #eb5d2f;
   left: auto;
   right: 0;
   bottom: -2px;
@@ -17402,8 +17402,8 @@ a.social-yout {
   transition: all 0.3s 0s ease-out;
 }
 .tp-event-inner-btn a:hover {
-  background: #5169F1;
-  border: 1px solid #5169F1;
+  background: #00477b;
+  border: 1px solid #00477b;
   color: var(--tp-common-white);
   box-shadow: 0px 1px 2px 0px rgba(20, 56, 181, 0.25), 0px 0px 1px 0px #1438B5;
 }
@@ -17679,7 +17679,7 @@ a.social-yout {
   color: var(--tp-text-body);
 }
 .tp-event-details-ticket-box p span {
-  color: #5169F1;
+  color: #00477b;
   font-weight: 600;
 }
 .tp-event-details-plus {
@@ -18932,7 +18932,7 @@ a .course-sky {
 .tp-course-requrement-widget-contact {
   padding: 36px 30px;
   border-radius: 10px;
-  background: #164951;
+  background: #00477b;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-course-requrement-widget-contact {
@@ -19066,7 +19066,7 @@ a .course-sky {
   border-radius: 50%;
   margin-right: 15px;
   transform: translateY(-2px);
-  border: 2px solid #B1040E;
+  border: 2px solid #eb5d2f;
 }
 .tp-apply-requirement-bg {
   background-color: #EFEDE7;
@@ -19148,7 +19148,7 @@ a .course-sky {
   color: var(--tp-heading-primary);
 }
 .tp-apply-dedline-date p {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 17px;
   font-weight: 400;
   margin: 0;
@@ -20228,7 +20228,7 @@ a .course-sky {
 }
 .tp-filter-widget-radio ul li .form-check-label {
   font-size: 15px;
-  color: #57595f;
+  color: #eb5d2f;
   font-weight: 400;
   cursor: pointer;
 }
@@ -20257,7 +20257,7 @@ a .course-sky {
 }
 .tp-filter-widget-checkbox ul li label {
   font-size: 15px;
-  color: #57595f;
+  color: #eb5d2f;
   font-weight: 400;
   position: relative;
   padding-left: 26px;
@@ -20370,7 +20370,7 @@ a .course-sky {
 }
 .tp-grid-widget-checkbox ul li label {
   font-size: 15px;
-  color: #57595f;
+  color: #eb5d2f;
   font-weight: 400;
   position: relative;
   padding-left: 26px;
@@ -20888,7 +20888,7 @@ a .course-sky {
 .tp-course-details-2-faq .accordion-button .lesson {
   font-size: 15px;
   font-weight: 400;
-  color: #57595f;
+  color: #eb5d2f;
   border-radius: 34px;
   padding: 5px 20px;
   border: 1px solid #e6e8f0;
@@ -20981,7 +20981,7 @@ a .course-sky {
 }
 .tp-course-details-2-faq-item .left span {
   font-size: 15px;
-  color: #57595f;
+  color: #eb5d2f;
   font-weight: 400;
 }
 .tp-course-details-2-faq-item .left span i {
@@ -21241,7 +21241,7 @@ a .course-sky {
 .tp-course-details-2-related-heading p {
   font-weight: 300;
   font-size: 20px;
-  color: #57595f;
+  color: #eb5d2f;
 }
 .tp-course-details-2-related-title {
   font-size: 36px;
@@ -21346,7 +21346,7 @@ a .course-sky {
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .tp-course-details-3-list-item {
     padding-right: 0;
-    border-bottom: 1px solid #57595f;
+    border-bottom: 1px solid #eb5d2f;
   }
 }
 .tp-course-details-3-list-item span {
@@ -21528,7 +21528,7 @@ a .course-sky {
   line-height: 36px;
 }
 .tp-brand-2-title span {
-  color: #0071DC;
+  color: #00477b;
   position: relative;
   display: inline-block;
 }
@@ -21868,7 +21868,7 @@ span.dark-border {
   cursor: pointer;
   transition: all 0.5s ease;
   border-radius: 30px 30px 2px 30px;
-  background: #0071DC;
+  background: #00477b;
   box-shadow: 0px 1px 3px 0px rgba(43, 22, 5, 0.14);
 }
 .tp-team-2-social:hover a {
@@ -21899,7 +21899,7 @@ span.dark-border {
   font-size: 13px;
   position: relative;
   z-index: 3;
-  background: #0071DC;
+  background: #00477b;
   border-radius: 30px 30px 2px 30px;
 }
 .tp-team-2-social-wrap i, .tp-team-2-social-wrap svg {
@@ -21922,7 +21922,7 @@ span.dark-border {
   position: absolute;
   top: 25px;
   height: auto;
-  background: #0071DC;
+  background: #00477b;
   padding: 10px 0 15px 0;
   border-radius: 0 0 30px 30px;
   transform: scaleY(0);
@@ -22081,7 +22081,7 @@ span.dark-border {
 .tp-team-6-wrapper .tp-event-details-item:hover {
   box-shadow: none;
   transform: translateY(0px);
-  border: 1px solid #5956e9;
+  border: 1px solid #eb5d2f;
 }
 .tp-team-6-wrapper .tp-event-details-item-social a:hover {
   background-color: var(--tp-theme-9);
@@ -22662,7 +22662,7 @@ span.dark-border {
   margin-bottom: 13px;
 }
 .tp-pricing-5-head-text span {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 14px;
   font-weight: 300;
 }
@@ -22906,7 +22906,7 @@ span.dark-border {
   color: var(--tp-text-body);
 }
 .tp-faq-sidebar ul li a:hover {
-  color: #5169F1;
+  color: #00477b;
 }
 .tp-faq-sidebar ul li:not(:last-of-type) {
   margin-bottom: 10px;
@@ -23058,7 +23058,7 @@ span.dark-border {
 }
 .tp-login-from-heading p a {
   font-weight: 500;
-  color: #5169F1;
+  color: #00477b;
 }
 .tp-login-from-title {
   font-size: 32px;
@@ -23177,7 +23177,7 @@ span.dark-border {
   display: none;
 }
 .tp-login-input-remeber a {
-  color: #5169F1;
+  color: #00477b;
   font-size: 15px;
   font-weight: 500;
 }
@@ -23392,7 +23392,7 @@ span.dark-border {
 }
 .tp-our-mission-item-btn .tp-btn-3 {
   padding: 7px 22px 8px;
-  background-color: var(--tp-heading-primary);
+  background-color: #00477b;
 }
 .tp-our-mission-item-btn .tp-btn-3 i {
   margin-left: 8px;
@@ -23900,12 +23900,12 @@ span.dark-border {
 .tp-campus-student-list .nav .nav-link:hover {
   position: relative;
   color: var(--tp-common-white);
-  background-color: #B1040E;
+  background-color: #eb5d2f;
 }
 .tp-campus-student-list .nav .nav-link.active {
   position: relative;
   color: var(--tp-common-white);
-  background-color: #B1040E;
+  background-color: #eb5d2f;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 767px) {
   .tp-campus-activity-content {
@@ -24143,7 +24143,7 @@ span.dark-border {
   -ms-transition: all 0.3s 0s ease-out;
   -o-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
-  background: linear-gradient(180deg, rgba(196, 18, 48, 0) 38.02%, #C41230 100%);
+  background: linear-gradient(180deg, rgba(196, 18, 48, 0) 38.02%, #eb5d2f 100%);
 }
 .tp-leadership-thumb.instructor::after {
   background: linear-gradient(180deg, rgba(196, 18, 48, 0) 38.02%, var(--tp-dashboard-primary) 100%);
@@ -24206,7 +24206,7 @@ span.dark-border {
   letter-spacing: -0.48px;
 }
 .tp-leadership-title a:hover {
-  color: #C41230;
+  color: #eb5d2f;
 }
 .tp-leadership-title.instructor a:hover {
   color: var(--tp-dashboard-primary);
@@ -24819,7 +24819,7 @@ span.dark-border {
   position: relative;
   padding: 100px;
   border-radius: 16px;
-  background-color: #164951;
+  background-color: #00477b;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-admission-cta-box {
@@ -25039,7 +25039,7 @@ span.dark-border {
   border-radius: 50%;
   margin-right: 15px;
   transform: translateY(-2px);
-  border: 2px solid #B1040E;
+  border: 2px solid #eb5d2f;
 }
 .tp-financial-bg {
   background-color: #EFEDE7;
@@ -29031,7 +29031,7 @@ span.common-pale-purple {
 .tp-dashboard-course-name-title {
   margin-bottom: 0;
   margin-left: 20px;
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   font-weight: 400;
 }
@@ -29040,7 +29040,7 @@ span.common-pale-purple {
   width: 185px;
 }
 .tp-dashboard-course-enroll span {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   font-weight: 400;
 }
@@ -29054,7 +29054,7 @@ span.common-pale-purple {
   margin: 0 -1px;
 }
 .tp-dashboard-course-details a {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 15px;
   font-weight: 500;
 }
@@ -29114,7 +29114,7 @@ span.common-pale-purple {
 }
 .tp-profile-info-tag span {
   padding: 13px 30px;
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   font-weight: 300;
   display: inline-block;
@@ -29613,7 +29613,7 @@ span.common-pale-purple {
   color: var(--tp-dashboard-primary);
 }
 .tpd-certificate-badge-text {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 14px;
   font-weight: 400;
 }
@@ -29683,7 +29683,7 @@ span.common-pale-purple {
   margin-left: 10px;
 }
 .tpd-certificate-title {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 18px;
   font-weight: 400;
   margin: 0;
@@ -30102,7 +30102,7 @@ span.common-pale-purple {
 .tpd-dashboard-progress-item p {
   font-weight: 600;
   font-size: 20px;
-  color: #57595f;
+  color: #eb5d2f;
   margin: 0;
 }
 .tpd-dashboard-progress-body {
@@ -30156,7 +30156,7 @@ span.common-pale-purple {
   font-weight: 700;
   font-size: 14px;
   line-height: 14px;
-  color: #57595F;
+  color: #eb5d2f;
   z-index: 999;
   padding: 15px 25px;
   transition: 0.3s;
@@ -30435,7 +30435,7 @@ span.common-pale-purple {
   flex: 0 0 auto;
 }
 .tpd-reviews-date span {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   line-height: 1;
   margin-bottom: 8px;
@@ -30584,7 +30584,7 @@ span.common-pale-purple {
 .tpd-quiz-title-2 {
   font-size: 16px;
   font-weight: 400;
-  color: #57595F;
+  color: #eb5d2f;
   margin-bottom: 0;
 }
 .tpd-quiz-title-2-color {
@@ -30724,7 +30724,7 @@ span.common-pale-purple {
 }
 .tpd-select.w-120 .nice-select::after {
   right: 18px;
-  color: #57595F;
+  color: #eb5d2f;
 }
 .tpd-select.w-120 .nice-select .list {
   width: 100%;
@@ -30770,7 +30770,7 @@ span.common-pale-purple {
   margin-right: 10px;
 }
 .tpd-assign-info.analytic .tpd-assign-title {
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 18px;
 }
 .tpd-assign-mark {
@@ -30787,7 +30787,7 @@ span.common-pale-purple {
   width: 130px;
 }
 .tpd-assign-mark.analytic .tpd-common-text {
-  color: #57595F;
+  color: #eb5d2f;
 }
 .tpd-assign-submit {
   margin-left: 15px;
@@ -31143,7 +31143,7 @@ span.common-pale-purple {
 }
 .tpd-course-enroll-list ul li {
   list-style: none;
-  color: #57595F;
+  color: #eb5d2f;
   font-size: 16px;
   line-height: 21px;
   display: flex;
@@ -32048,7 +32048,7 @@ span.common-pale-purple {
   position: absolute;
   right: 20px;
   top: 15px;
-  color: #57595f;
+  color: #eb5d2f;
   content: "\f105";
   transform: rotate(0deg);
   font-family: fontawesome;
@@ -32090,7 +32090,7 @@ span.common-pale-purple {
   line-height: 1;
   font-weight: 400;
   font-size: 15px;
-  color: #57595f;
+  color: #eb5d2f;
 }
 .tpd-continue-learning-body-item a p span {
   display: inline-block;
@@ -33510,7 +33510,7 @@ span.common-pale-purple {
 }
 .tp-about-quran-wrapper .tp-section p {
   margin-left: 0;
-  color: #57595f;
+  color: #eb5d2f;
 }
 .tp-about-quran-wrapper .tp-section p::before {
   background-color: var(--tp-theme-11);
@@ -34145,7 +34145,7 @@ span.common-pale-purple {
   color: var(--tp-common-black);
 }
 .tp-team-quran-wrap .tp-team-yoga-thumb::before {
-  background: linear-gradient(180deg, rgba(29, 146, 103, 0) 38.02%, #1d9267 100%);
+  background: linear-gradient(180deg, rgba(29, 146, 103, 0) 38.02%, #00477b 100%);
 }
 .tp-team-quran-wrap .tp-team-yoga-title {
   font-family: var(--tp-ff-body);
